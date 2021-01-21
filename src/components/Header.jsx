@@ -1,11 +1,13 @@
 import React from 'react';
-import '../assets/styles/App.scss';
+import '../assets/styles/components/Header.scss';
+// import logo from '../assets/static/Platzi.png'
+
 const Header = () => (
 <header>
 <div className="hero">
 <div className="hero_container">
  <div className="img">
-	<img src="img/descarga.jpeg" />
+	// <img src="{logo}" />
 </div>
 		<h1 className="titulo">
 		 Curso de Grid

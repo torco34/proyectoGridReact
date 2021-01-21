@@ -1,0 +1,38 @@
+
+.container{
+   margin-top: 30px;
+	display:grid;
+	grid-template-columns: repeat(auto-fill, 250px);
+	grid-gap: 15px;
+	justify-content: center;
+}
+
+.item{
+
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #f2f2f2;
+}
+
+.item img{
+
+	max-width: 100%;
+}
+
+.nivel_1{
+
+	grid-row-end: span 3;
+
+}
+
+
+.nivel_2{
+
+	grid-row-end: span 2;
+}
+
+
+.nivel_3{
+
+	grid-row-end: span 1;
+}

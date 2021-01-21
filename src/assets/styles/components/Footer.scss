@@ -1,0 +1,14 @@
+
+.container_footer{
+   display:grid;
+	grid-template-columns: repeat(3, 300px);
+	grid-gap: 25px;
+	justify-content: center;
+	align-items: center;
+	background: #100e1b;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 10px;
+	height: 30vh;
+
+}
