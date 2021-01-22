@@ -1,13 +1,13 @@
 import React from 'react';
 import '../assets/styles/components/Header.scss';
-// import logo from '../assets/static/Platzi.png'
+import logo from '../assets/static/platzi.png';
 
 const Header = () => (
 <header>
 <div className="hero">
 <div className="hero_container">
  <div className="img">
-	// <img src="{logo}" />
+	<img src={logo} />
 </div>
 		<h1 className="titulo">
 		 Curso de Grid
